@@ -1,0 +1,72 @@
+Last login: Mon Sep  9 07:58:27 on console
+1015424@1015424-student-FVFMQASZ1WFV ~ % date
+Mon Sep  9 11:40:25 EDT 2024
+1015424@1015424-student-FVFMQASZ1WFV ~ % ls
+Desktop		Documents	Downloads	Library		Movies		Music		Pictures	Public
+1015424@1015424-student-FVFMQASZ1WFV ~ % cd Desktop
+1015424@1015424-student-FVFMQASZ1WFV Desktop % cd. >quiz
+zsh: command not found: cd.
+1015424@1015424-student-FVFMQASZ1WFV Desktop % echo >quiz
+1015424@1015424-student-FVFMQASZ1WFV Desktop % ls
+Screenshot 2024-09-03 at 9.37.50 AM.png		quiz						untitled folder
+hi.txt						terminal_practice
+1015424@1015424-student-FVFMQASZ1WFV Desktop % cd quiz
+cd: not a directory: quiz
+1015424@1015424-student-FVFMQASZ1WFV Desktop % cd quiz
+cd: not a directory: quiz
+1015424@1015424-student-FVFMQASZ1WFV Desktop % ls
+Screenshot 2024-09-03 at 9.37.50 AM.png		quiz						untitled folder
+hi.txt						terminal_practice
+1015424@1015424-student-FVFMQASZ1WFV Desktop % echo. >move_me.txt
+zsh: command not found: echo.
+1015424@1015424-student-FVFMQASZ1WFV Desktop % echo >move_me.txt
+1015424@1015424-student-FVFMQASZ1WFV Desktop % echo>copy_me.txt
+1015424@1015424-student-FVFMQASZ1WFV Desktop % ls      
+Screenshot 2024-09-03 at 9.37.50 AM.png		move_me.txt					untitled folder
+copy_me.txt					quiz
+hi.txt						terminal_practice
+1015424@1015424-student-FVFMQASZ1WFV Desktop % echo> destination
+1015424@1015424-student-FVFMQASZ1WFV Desktop % mv destination> quiz
+usage: mv [-f | -i | -n] [-hv] source target
+       mv [-f | -i | -n] [-v] source ... directory
+1015424@1015424-student-FVFMQASZ1WFV Desktop % ls
+Screenshot 2024-09-03 at 9.37.50 AM.png		hi.txt						terminal_practice
+copy_me.txt					move_me.txt					untitled folder
+destination					quiz
+1015424@1015424-student-FVFMQASZ1WFV Desktop % mv destination>quiz
+usage: mv [-f | -i | -n] [-hv] source target
+       mv [-f | -i | -n] [-v] source ... directory
+1015424@1015424-student-FVFMQASZ1WFV Desktop % ls
+Screenshot 2024-09-03 at 9.37.50 AM.png		hi.txt						terminal_practice
+copy_me.txt					move_me.txt					untitled folder
+destination					quiz
+1015424@1015424-student-FVFMQASZ1WFV Desktop % mv destination quiz
+1015424@1015424-student-FVFMQASZ1WFV Desktop % ls
+Screenshot 2024-09-03 at 9.37.50 AM.png		move_me.txt					untitled folder
+copy_me.txt					quiz
+hi.txt						terminal_practice
+1015424@1015424-student-FVFMQASZ1WFV Desktop % cd quiz
+cd: not a directory: quiz
+1015424@1015424-student-FVFMQASZ1WFV Desktop % cd untitled folder
+cd: string not in pwd: untitled
+1015424@1015424-student-FVFMQASZ1WFV Desktop % mod
+zsh: command not found: mod
+1015424@1015424-student-FVFMQASZ1WFV Desktop % help
+zsh: command not found: help
+1015424@1015424-student-FVFMQASZ1WFV Desktop % mv move_me.txt>destination
+usage: mv [-f | -i | -n] [-hv] source target
+       mv [-f | -i | -n] [-v] source ... directory
+1015424@1015424-student-FVFMQASZ1WFV Desktop % ls
+Screenshot 2024-09-03 at 9.37.50 AM.png		hi.txt						terminal_practice
+copy_me.txt					move_me.txt					untitled folder
+destination					quiz
+1015424@1015424-student-FVFMQASZ1WFV Desktop % mv destination>quiz
+usage: mv [-f | -i | -n] [-hv] source target
+       mv [-f | -i | -n] [-v] source ... directory
+1015424@1015424-student-FVFMQASZ1WFV Desktop % ls
+Screenshot 2024-09-03 at 9.37.50 AM.png		hi.txt						terminal_practice
+copy_me.txt					move_me.txt					untitled folder
+destination					quiz
+1015424@1015424-student-FVFMQASZ1WFV Desktop % date
+Mon Sep  9 11:45:52 EDT 2024
+1015424@1015424-student-FVFMQASZ1WFV Desktop % 
